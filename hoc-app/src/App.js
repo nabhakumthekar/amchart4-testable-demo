@@ -26,8 +26,9 @@ class App extends React.Component {
     }
 
     componentWillUnmount() {
-        if(this.chart)
-            this.chart= null ;
+        if(this.chart) {
+            this.chart.dispose()
+        }
     }
 
     openDrawer() {
