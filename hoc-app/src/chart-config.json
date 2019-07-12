@@ -1,0 +1,59 @@
+{
+  "data" : [],
+  "responsive": {
+    "enabled": true
+  },
+  "xAxes": [{
+    "type": "CategoryAxis",
+    "dataFields": {
+      "category": "label"
+    },
+    "renderer": {
+      "labels": {
+        "wrap": true,
+        "maxWidth": 110,
+        "events": {
+          "hit": ""
+        }
+      },
+      "grid": {
+        "disabled": true
+      }
+    }
+  }],
+  "yAxes": [{
+    "type": "ValueAxis",
+    "renderer": {
+      "minGridDistance": 20
+    },
+    "numberFormatter": {
+      "numberFormat": ""
+    }
+  }],
+  "series": [{
+    "type": "ColumnSeries",
+    "dataFields": {
+      "categoryX": "label",
+      "valueY": "endValue",
+      "openValueY": "startValue"
+    },
+    "columns": {
+      "strokeOpacity": 0,
+      "fillOpacity": 1,
+      "events": {
+        "hit": ""
+      }
+    },
+    "bullets": [{
+      "type": "LabelBullet",
+      "label": {
+        "text": "{value}",
+        "fontSize": 14,
+        "paddingBottom":20
+      }
+    }]
+  }],
+  "exporting": {
+    "menu": {}
+  }
+}

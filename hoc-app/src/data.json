@@ -1,0 +1,40 @@
+{
+  "data": [
+    {
+      "endValue": 8.99,
+      "startValue": 8,
+      "value": 8.99,
+      "label": "Basket 1"
+    },
+    {
+      "endValue": 9.93,
+      "startValue": 8.99,
+      "value": 95,
+      "label": "Basket 1Basket 2"
+    },
+    {
+      "endValue": 9.99,
+      "startValue": 9.93,
+      "value": 6,
+      "label": "Basket 1Basket2 Basket 3"
+    },
+    {
+      "endValue": 10.22,
+      "startValue": 9.99,
+      "value": 23,
+      "label": "Basket 4"
+    },
+    {
+      "endValue": 10.23,
+      "startValue": 10.22,
+      "value": 0,
+      "label": "Basket 5"
+    },
+    {
+      "endValue": 10.23,
+      "startValue": 8,
+      "value": 10.23,
+      "label": "Basket 6"
+    }
+  ]
+}
